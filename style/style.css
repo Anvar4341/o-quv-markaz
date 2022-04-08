@@ -1,10 +1,80 @@
+/* fonts  */
+@font-face {
+    font-family: 'Georama';
+    src: url('../fonts/Georama-Regular.woff2') format('woff2'),
+        url('../fonts/Georama-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georama';
+    src: url('../fonts/Georama-Black.woff2') format('woff2'),
+        url('../fonts/Georama-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georama';
+    src: url('../fonts/Georama-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Georama-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georama';
+    src: url('../fonts/Georama-Medium.woff2') format('woff2'),
+        url('../fonts/Georama-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georama';
+    src: url('../fonts/Georama-Bold.woff2') format('woff2'),
+        url('../fonts/Georama-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georama';
+    src: url('../fonts/Georama-Light.woff2') format('woff2'),
+        url('../fonts/Georama-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 * {
     padding: 0;
     margin: 0;
 }
+
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Georama-Light.woff2";
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #222;
 }
 
 .container {
